@@ -27,3 +27,9 @@ jobs:
           newman run API_Booking.postman_collection.json \
             --reporters cli,junit \
             --reporter-junit-export results.xml
+ 
+          - name: Upload Test Report
+          uses: actions/upload-artifact@v4
+          with:
+          name: postman-test-report
+          path: results.xml
