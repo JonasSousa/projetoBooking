@@ -25,6 +25,7 @@ jobs:
       - name: Run Postman Collection
         run: |
           newman run API_Booking.postman_collection.json \
+            --environment ./postman/environment-dev.json
             --reporters cli,junit \
             --reporter-junit-export results.xml
  
