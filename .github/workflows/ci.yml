@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Postman Collection
         run: |
-          newman run ./postman/collection.json \
-            --environment ./postman/environment.json \
+          newman run ./projetoBooking/collection.json \
+            --environment ./projetoBooking/environment-dev.json \
             --reporters cli,junit \
             --reporter-junit-export results.xml
