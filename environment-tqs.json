@@ -1,0 +1,21 @@
+{
+	"id": "ad42c55d-33ab-44fd-8ff5-e5b8338c3710",
+	"name": "Testes",
+	"values": [
+		{
+			"key": "url_base",
+			"value": "https://restful-booker.herokuapp.com/booking",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "id_reserva",
+			"value": "150",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-07-07T18:35:55.584Z",
+	"_postman_exported_using": "Postman/11.51.6"
+}
