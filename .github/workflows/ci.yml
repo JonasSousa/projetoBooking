@@ -26,6 +26,7 @@ jobs:
         run: |
           newman run API_Booking.postman_collection.json \
             --environment environment-dev.json
+            --iteration-data dados_projeto_booking.csv
             --reporters cli,junit \
             --reporter-junit-export results.xml
  
